@@ -1,0 +1,597 @@
+
+.navsearch{
+    margin-bottom:20px;
+    padding-bottom:10px;
+    
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ .NavHeader{
+     display:flex;
+     align-items:center;
+     justify-content:space-between;
+     //background-color:rgba(0,0,0,0.1);
+
+
+}
+.Navul {
+    list-style: none;
+    
+}
+.Search input {
+    height:40px;
+}
+.Container .Navul a {
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.Search{
+    padding-top:35px;
+}
+.Container a {
+    color: black;
+    
+    text-decoration: none;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.IceCream a {
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/*li {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: black;
+    border-block-color: black;
+}*/
+ 
+button{
+    background-color:grey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    border-radius:5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.MainBody{
+    background:url(Images/Background.jpg) no-repeat;
+    background-size:cover;
+    background-position :center;
+    height:700px;
+}
+.MainHead {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+        float:right;
+        color:azure;
+}
+.MainHead2 {
+    height:150px;
+   
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    float: right;
+    color: white;
+    margin-right:50px;
+    width:300px;
+    margin-top:300px;
+    margin-bottom:20px;
+}
+.Maindiv {
+    width: 200px;
+    float: left;
+    
+    
+}
+input{
+    margin:20px;
+    height:30px;
+    border-radius:5px;
+}
+.HomeMenu{
+  
+    height:300px;
+    margin:18px;
+    border-radius:10px;
+    background-color:ghostwhite;
+    width:30%;
+    color:white;
+    display:inline-block;
+}
+.MenuHE{
+    color:black;
+}
+.MenuIn {
+    margin-left: 30%;
+    margin-right: 10%;
+    padding-top: 10%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PrContainer {
+    width:auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: azure;
+}
+.Item {
+    width: 30%;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    background-color: ghostwhite;
+   
+   
+}
+.foot{
+   display:flex;
+   justify-content:center;
+   background-color:black;
+   color:white;
+   border-radius:10px;
+}
+.IceCream {
+    background: url(Images/back2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.IcecreamL {
+     
+    border-radius:20px;
+}
+.Cafe {
+    border-radius: 10px;
+    align-items: center;
+    background: url(Images/Cafe.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.CafeHe {
+    float :right;
+    font-size: 20px;
+    color: beige;
+    width: 250px;
+}
+.PrList {
+   
+    background-size: cover;
+}
+
+.View {
+    border-radius: 5px;
+    padding: 50px;
+    background-color: white
+}
+
+.VLink {
+    color: black;
+    font-size: 20px;
+}
+.Vbutton {
+    display: block;
+    width: 100%;
+}
+.ViewCon {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: medium;
+    margin: 10px;
+   
+    background-size: cover;
+    background-position: center;
+    background-color: whitesmoke;
+}
+.CartB {
+    display: flex;
+    justify-content: center;
+  
+    height:100px;
+}
+.CartButton {
+    background: url(Images/Cart1.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.AddCartB {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    width:100%;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+.AddCartB:active,
+.AddCartB:hover {
+    outline: 0;
+}
+
+.AddCartB span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+.AddCartB:hover span {
+    background: none;
+}
+
+@media (min-width: 768px) {
+    .AddCartB {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}
+
+.Cart{
+    height:500px;
+}
+.CItem{
+    width: 100px;
+    height: 200px;
+    margin:40px;
+    background-color:black;
+}
+.PrContainer{
+    position:relative;
+}
+.PCart {
+    height:100%;
+    background-color:azure;
+    
+    position:relative;
+}
+.Car{
+    margin:60px;
+    display:inline-block;
+}
+.Product{
+    display:inline-block;
+     
+}
+.CartButton2 {
+    background: url(Images/Cross.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    height:100px;
+    width:200px;
+    margin-left:43%;
+}
+.foot{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.footp{
+    position:relative;
+}
+
+.Form {
+    margin:50px;
+    background-color:aquamarine;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, label, span {
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body, html, .App, #root, .auth-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+   
+}
+
+.auth-inner {
+    width: 450px;
+    margin: auto;
+    
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.auth-wrapper .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+}
+
+.auth-wrapper h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.custom-control-label {
+    font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+}
+
+    .forgot-password a {
+        color: #167bff;
+    }
+    .auth-inner input{
+        width:100%;
+       
+    }
+.auth-inner button {
+    width: 100%;
+    background-color:snow;
+}
+auth-inner label {
+    width: 100%;
+}
+
+.foot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footp {
+    position: relative;
+}
+.About {
+    background-color:aliceblue;
+    background-size: cover;
+    background-position: center;
+    height: 640px;
+}
+.LoginS{
+    height:40%;
+}
+.LB{
+    background-color:azure;
+}
+.Bot {
+  
+    height:600px;
+   
+}
+
+
+.InnerBot{
+    width:80%;
+    
+    margin-left:10%;
+    margin-right:10%;
+   
+}
+.BotInput{
+    display:inline-block;
+    width:60%;
+    height:400px;
+}
+.BotButton{
+
+}
+
+
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+    outline: 0;
+}
+
+.button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button-64:hover span {
+    background: none;
+}
+
+@media (min-width: 768px) {
+    .button-64 {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}
+
+
+.Item img{
+    padding-left:20%;
+    padding-right:20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.NewNav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+h2,
+h3,
+a {
+    color: #34495e;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.NewNav .header .logo {
+    margin: 0;
+    font-size: 1.45em;
+}
+
+.main-nav {
+    margin-top: 5px;
+}
+
+    .logo a,
+    .main-nav a {
+        padding: 10px 15px;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+    }
+
+    .main-nav a {
+        color: #34495e;
+        font-size: .99em;
+    }
+
+        .main-nav a:hover {
+            color: #718daa;
+        }
+
+
+
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #a2a2a2;
+    background-color: #f4f4f4;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+@media (min-width: 769px) {
+    .header,
+    .main-nav {
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        .header
+
+{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+}
+}
+
+@media (min-width: 1025px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
